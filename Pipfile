@@ -7,6 +7,7 @@ name = "pypi"
 django = "*"
 langchain = "*"
 gpt4all = "*"
+django-cors-headers = "*"
 
 [dev-packages]
 autopep8 = "*"

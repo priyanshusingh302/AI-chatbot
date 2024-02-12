@@ -6,4 +6,4 @@ from .models import StringInput
 class StringInputSerializer(serializers.ModelSerializer):
     class Meta:
         model = StringInput
-        fields = ('promt',)
+        fields = ('promt', 'context')

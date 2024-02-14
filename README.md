@@ -27,7 +27,13 @@ This Django API provides an AI chatbot service that uses the Mistral-7B-OpenOrca
     ```bash
     pipenv shell
     ```
-5. Run the Django development server using the following command:
+5. Change working directory:
+
+    ```bash
+    cd chatbot
+    ```
+    
+6. Run the Django development server using the following command:
 
     ```bash
     python manage.py runserver

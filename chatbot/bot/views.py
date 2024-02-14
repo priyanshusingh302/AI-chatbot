@@ -23,7 +23,7 @@ llm_chain = LLMChain(prompt=prompt, llm=llm)
 
 
 @api_view(['POST'])
-def remove_spaces(request):
+def chat(request):
     if request.method == 'POST':
         serializer = StringInputSerializer(data=request.data)
         if serializer.is_valid():

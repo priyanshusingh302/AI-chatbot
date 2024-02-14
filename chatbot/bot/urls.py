@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import remove_spaces
+from .views import chat
 
 urlpatterns = [
-    path('api/chat/', remove_spaces, name='remove_spaces'),
+    path('api/chat/', chat, name='remove_spaces'),
 ]
